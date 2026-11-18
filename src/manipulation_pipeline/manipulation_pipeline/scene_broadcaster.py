@@ -5,8 +5,12 @@ from tf2_ros import TransformBroadcaster, StaticTransformBroadcaster
 
 
 class SceneBroadcaster(Node):
-    """Publishes static scene frames (table, platform) and a simulated
-    object pose over TF2, standing in for a perception system."""
+    """
+    Publish the scene frames over TF2.
+
+    Static frames (table, platform) plus a simulated object pose, standing in
+    for a perception system.
+    """
 
     def __init__(self):
         super().__init__('scene_broadcaster')
