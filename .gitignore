@@ -1,0 +1,9 @@
+# colcon workspace artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
