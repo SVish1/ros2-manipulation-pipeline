@@ -15,7 +15,8 @@ setup(
     zip_safe=True,
     maintainer='root',
     maintainer_email='root@todo.todo',
-    description='Fault-tolerant pick-and-place pipeline for the Franka Panda using MoveIt 2 and TF2.',
+    description=('Fault-tolerant pick-and-place pipeline for the Franka Panda '
+                 'using MoveIt 2 and TF2.'),
     license='TODO: License declaration',
     extras_require={
         'test': [
