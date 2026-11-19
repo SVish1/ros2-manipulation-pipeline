@@ -197,3 +197,7 @@ ros2-manipulation-pipeline/
 - Add the table and platform as collision objects too
 - Run on physics-based simulation (Gazebo or Isaac Sim) so the grasp is simulated physically, not just in the planning scene
 - Add a launch file that starts MoveIt, the scene and the pick-and-place node together
+
+## License
+
+[MIT](LICENSE) © 2026 Shamita Nalamutt

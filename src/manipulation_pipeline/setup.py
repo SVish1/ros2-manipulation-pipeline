@@ -13,11 +13,11 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='root',
-    maintainer_email='root@todo.todo',
+    maintainer='Shamita Nalamutt',
+    maintainer_email='108322515+SVish1@users.noreply.github.com',
     description=('Fault-tolerant pick-and-place pipeline for the Franka Panda '
                  'using MoveIt 2 and TF2.'),
-    license='TODO: License declaration',
+    license='MIT',
     extras_require={
         'test': [
             'pytest',
